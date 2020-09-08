@@ -5,12 +5,15 @@
 
 .bg-img {
   width: 100%;
+  height: auto;
 }
 
 body {
   background-image: url("img/crab.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-color: #000;
 }
 
 .blocImage {
@@ -25,31 +28,39 @@ body {
   font-size: 6vw;
 }
 
+button {
+  border: none;
+}
+
 #Jeu {
   display: inline-block;
   background-color: #e93e33;
   margin-top: 5%;
-  padding: 5px;
+  padding: 2%;
 }
 
 #Jeu div {
-  margin: 0 auto;
   overflow: hidden;
 }
 
 #Jeu button {
-  width: 100px;
-  height: 100px;
+  width: 8vw;
+  height: 8vw;
   font-weight: bold;
-  font-size: 50px;
-  margin: 5px;
+  font-size: 4vw;
+  margin: 0.5vw;
   float:left;
 }
 
 #StatutJeu {
   color: #e93e33;
   background: #eee;
-  padding: 10px 0;
+  padding: 1vw;
   text-align: center;
   font-size: 2vw;
+  margin: 1.5vw;
+}
+
+#StatutJeu a {
+  color: #000;
 }
