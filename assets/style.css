@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+body {
+  background-image: url("img/crab.jpg");
+  background-size: cover;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.blocImage {
+  display: flex;
+  align-items: center;
+  margin-left: 15%;
+}
+
+.blocImage h1 {
+  width: 50%;
+  color: #FFF;
+  font-size: 6vw;
+}
+
+#Jeu {
+  display: inline-block;
+  background-color: #e93e33;
+  margin-top: 5%;
+  padding: 5px;
+}
+
+#Jeu div {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#Jeu button {
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 5px;
+  float:left;
+}
+
+#StatutJeu {
+  color: #e93e33;
+  background: #eee;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 2vw;
+}
